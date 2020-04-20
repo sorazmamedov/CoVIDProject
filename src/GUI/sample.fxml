@@ -4,7 +4,8 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
-<GridPane fx:controller="GUI.Controller" xmlns:fx="http://javafx.com/fxml" hgap="10" vgap="10" alignment="CENTER">
+<GridPane fx:controller="GUI.Controller" xmlns:fx="http://javafx.com/fxml" hgap="10" vgap="10" alignment="TOP_CENTER">
+    <padding><Insets top="50" right="25" bottom="25" left="25"/></padding>
     <children>
         <Label                       GridPane.rowIndex="0" GridPane.columnIndex="0" >Total confirmed cases: </Label>
         <Label fx:id="lblConfirmed"  GridPane.rowIndex="0" GridPane.columnIndex="1" />
@@ -24,5 +25,9 @@
         <ComboBox fx:id="comboCountries"  GridPane.rowIndex="6" GridPane.columnIndex="1" />
         <Label    fx:id="lblSpecCountry"  GridPane.rowIndex="7" GridPane.columnIndex="1" />
 
+        <Label GridPane.rowIndex="8" GridPane.columnIndex="0"> From: </Label>
+        <Label GridPane.rowIndex="8" GridPane.columnIndex="1"> To: </Label>
+        <DatePicker fx:id="datePickerFrom"  GridPane.rowIndex="9" GridPane.columnIndex="0"/>
+        <DatePicker fx:id="datePickerTo"  GridPane.rowIndex="9" GridPane.columnIndex="1"/>
     </children>
 </GridPane>
