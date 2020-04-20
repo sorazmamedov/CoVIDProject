@@ -1,4 +1,4 @@
-package GUI;
+package REST;
 
 import org.json.JSONObject;
 

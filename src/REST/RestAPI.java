@@ -1,6 +1,5 @@
-package GUI;
+package REST;
 
-import org.json.JSONArray;
 import org.json.JSONObject;
 
 import java.net.URI;

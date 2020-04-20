@@ -1,8 +1,8 @@
 package Structures;
 
 
-import GUI.IApiCall;
-import GUI.RestAPI;
+import REST.IApiCall;
+import REST.RestAPI;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
@@ -13,7 +13,6 @@ import java.util.Comparator;
 import java.util.Date;
 import java.util.List;
 import java.util.function.BiFunction;
-import java.util.function.BiPredicate;
 
 public class Utils {
 
